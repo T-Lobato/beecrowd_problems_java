@@ -4,7 +4,7 @@ public class Ex1005 { //Alterar o nome da classe para Main ara funcionar no beec
 
     public static void main(String[] args) {
         
-        double nota1,nota2,media;
+        double nota1, nota2, media;
 
         Scanner sc = new Scanner(System.in);
 
