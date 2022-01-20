@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex1001 {
+public class Ex1001 { // Alterar o nome da classe para Main ara funcionar no beecrowd
 
     public static void main(String[] args) {
         
