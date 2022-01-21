@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex1001 { // Alterar o nome da classe para Main ara funcionar no beecrowd
+public class Ex1001 { // Alterar o nome da classe para Main ara funcionar no beecrowd.
 
     public static void main(String[] args) {
         
@@ -17,7 +17,7 @@ public class Ex1001 { // Alterar o nome da classe para Main ara funcionar no bee
 
         System.out.println("X = " + resultado);
 
-
+        sc.close();
     }
     
 }
