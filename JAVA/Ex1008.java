@@ -20,7 +20,7 @@ public class Ex1008 { //Alterar o nome da classe para Main para funcionar no bee
 
         //saida
         System.out.println("NUMBER = " + numeroFuncionario);
-        System.out.printf("SALARY = U$ %.2f", salario);
+        System.out.printf("SALARY = U$ %.2f\n", salario);
         sc.close();
     }
 }
