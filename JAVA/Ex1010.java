@@ -27,19 +27,5 @@ public static void main(String[] args) {
         //saida
         System.out.printf("VALOR A PAGAR: R$ %.2f\n", pagar);
         sc.close();
-
-
-
-        
-
-
-
-
-
-
-
-        
-
-
     }
 }
