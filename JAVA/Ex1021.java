@@ -1,73 +1,76 @@
 import java.util.Scanner;
-import java.util.Locale;
 
-public class Ex1021 { //Alterar o nome da classe para Main para funcionar no beecrowd
+public class Ex1021{
     public static void main(String[] args) {
         
-        //objeto e variaveis
+        //objeto
         Scanner sc = new Scanner(System.in);
-        Locale.setDefault(new Locale("en", "US"));
-                
-        //variaveis e entrada
-        double n = sc.nextDouble();
-                
+
+        //entradas e variaveis
+        double valorEntrada = sc.nextDouble();
+
         //variaveis e processamento
-        //Notas
-        double cem = n/100;
-        double cinquenta = (n%100)/50;
-        double vinte = ((n%100)%50)/20;
-        double dez = (((n%100)%50)%20)/10;
-        double cinco = ((((n%100)%50)%20)%10)/5;
-        double dois = (((((n%100)%50)%20)%10)%5)/2;
+        int notas = (int) valorEntrada; // Converte o valorEntrada de Double para Int
+        int moedas = (int) ((valorEntrada - notas) * 100);
 
-        //Moedas    
-        double umReal = ((((((n%100)%50)%20)%10)%5)%2)/1;
-        double cinquentaCent = (((((((n%100)%50)%20)%10)%5)%2)%1)/0.50;
-        double vinteECincoCent = ((((((((n%100)%50)%20)%10)%5)%2)%1)%0.50)/0.25;
-        double dezCent = (((((((((n%100)%50)%20)%10)%5)%2)%1)%0.50)%0.25)/0.10;
-        double cincoCent = ((((((((((n%100)%50)%20)%10)%5)%2)%1)%0.50)%0.25)%0.10)/0.05;
-        double umCent = (((((((((((n%100)%50)%20)%10)%5)%2)%1)%0.50)%0.25)%0.10)%0.05)/0.01;
+        int nota100 = notas / 100;
+        notas = notas - (nota100 * 100);
 
-        //Conversão Notas
-        //Double para Int
-        int cemInt = (int) cem;
-        int cinquentaInt = (int) cinquenta;
-        int vinteInt = (int) vinte;
-        int dezInt = (int) dez;
-        int cincoInt = (int) cinco;
-        int doisInt = (int) dois;
+        int nota50 = notas / 50;
+        notas = notas - (nota50 * 50);
 
-        //Conversão Moedas
-        //Double para Int
-        int umRealInt = (int) umReal;
-        int cinquentaCentInt = (int) cinquentaCent;
-        int vinteECincoCentInt = (int) vinteECincoCent;
-        int dezCentInt = (int) dezCent;
-        int cincoCentInt = (int) cincoCent;
-        int umCentInt = (int) umCent;
+        int nota20 = notas / 20;
+        notas = notas - (nota20 * 20);
 
-       //saida Notas
+        int nota10 = notas / 10;
+        notas = notas - (nota10 * 10);
+
+        int nota5 = notas / 5;
+        notas = notas - (nota5 * 5);
+
+        int nota2 = notas / 2;
+        notas = notas - (nota2 * 2);
+
+        int moeda1 = notas;
+        notas = notas - (moeda1 * 1);
+        
+        int moeda50 = moedas / 50;
+        moedas = moedas - (moeda50 * 50);
+
+        int moeda25 = moedas / 25;
+        moedas = moedas - (moeda25 * 25);
+
+        int moeda10 = moedas / 10;
+        moedas = moedas - (moeda10 * 10);
+
+        int moeda05 = moedas / 5;
+        moedas = moedas - (moeda05 * 5);
+
+        int moeda01 = moedas;    
+
+        //saida
         System.out.println("NOTAS:");
-        System.out.println(cemInt + " nota(s) de R$ 100,00");
-        System.out.println(cinquentaInt + " nota(s) de R$ 50,00");
-        System.out.println(vinteInt + " nota(s) de R$ 20,00");
-        System.out.println(dezInt + " nota(s) de R$ 10,00");
-        System.out.println(cincoInt + " nota(s) de R$ 5,00");
-        System.out.println(doisInt + " nota(s) de R$ 2,00");
+        System.out.println(nota100 + " nota(s) de R$ 100.00");
+        System.out.println(nota50 + " nota(s) de R$ 50.00");
+        System.out.println(nota20 + " nota(s) de R$ 20.00");
+        System.out.println(nota10 + " nota(s) de R$ 10.00");
+        System.out.println(nota5 + " nota(s) de R$ 5.00");
+        System.out.println(nota2 + " nota(s) de R$ 2.00");
 
-        //saida Moedas
         System.out.println("MOEDAS:");
-        System.out.println(umRealInt + " moeda(s) de R$ 1,00");
-        System.out.println(cinquentaCentInt + " moeda(s) de R$ 0,50");
-        System.out.println(vinteECincoCentInt + " moeda(s) de R$ 0,25");
-        System.out.println(dezCentInt + " moeda(s) de R$ 0,10");
-        System.out.println(cincoCentInt + " moeda(s) de R$ 0,05");
-        System.out.println(umCentInt + " moeda(s) de R$ 0,01");      
+        System.out.println(moeda1 + " moeda(s) de R$ 1.00");
+        System.out.println(moeda50 + " moeda(s) de R$ 0.50");
+        System.out.println(moeda25 + " moeda(s) de R$ 0.25");
+        System.out.println(moeda10 + " moeda(s) de R$ 0.10");
+        System.out.println(moeda05 + " moeda(s) de R$ 0.05");
+        System.out.println(moeda01 + " moeda(s) de R$ 0.01");
         sc.close();
     }
 }
-        
-       
+
+    
+
+
 
 
 
