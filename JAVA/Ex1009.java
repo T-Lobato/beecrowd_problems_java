@@ -5,13 +5,13 @@ public class Ex1009 { //Alterar o nome da classe para Main para funcionar no bee
     public static void main(String[] args) {
         
         //variaveis
-        String nome; 
+        //String nome; 
         double salarioFixo, vendas, totalGeral, taxa = 0.15;
 
         Scanner sc = new Scanner(System.in);
 
         //entrada    
-        nome = sc.next();
+        //nome = sc.next();
         salarioFixo = sc.nextDouble();
         vendas = sc.nextDouble();
 
