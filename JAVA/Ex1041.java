@@ -6,6 +6,7 @@ public class Ex1041 {
         //objeto
         Scanner sc = new Scanner(System.in);
         String [] valores = sc.nextLine().split(" ");
+        sc.close();
 
         //variaveis e entrada
         double x = Double.parseDouble(valores[0]);
