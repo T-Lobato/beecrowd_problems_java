@@ -11,7 +11,7 @@ public class Ex1041 {
         double x = Double.parseDouble(valores[0]);
         double y = Double.parseDouble(valores[1]);
 
-        //variaveis e processamento
+        //variaveis, processamento e saida
 
         if (x > 0 && y > 0){
             System.out.println("Q1");
