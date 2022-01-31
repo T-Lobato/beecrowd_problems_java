@@ -10,42 +10,55 @@ public class Ex1052 {//Alterar o nome da classe para Main para funcionar no beec
         sc.close();
 
         //Processamento e Saida
-        if(numMes == 1){
-            System.out.println("January");
-        }
-        else if(numMes == 2){
+        switch(numMes) {
+            case 1: 
+             System.out.println("January");
+             break;
+        
+            case 2:
             System.out.println("February");
-        }
-        else if(numMes == 3){
+            break;
+        
+            case 3:
             System.out.println("March");
-        }    
-        else if(numMes == 4){
+            break;
+            
+            case 4:
             System.out.println("April");
-        }
-        else if(numMes == 5){
+            break;
+        
+            case 5:
             System.out.println("May");
-        }
-        else if(numMes == 6){
+            break;
+    
+            case 6:
             System.out.println("June");
-        }
-        else if(numMes == 7){
+            break;
+        
+            case 7:
             System.out.println("July");
-        }
-        else if(numMes == 8){
+            break;
+        
+            case 8:
             System.out.println("August");
-        }
-        else if(numMes == 9){
+            break;
+        
+            case 9:
             System.out.println("September");
-        }
-        else if(numMes == 10){
-            System.out.println("October");
-        }
-        else if(numMes == 11){
-            System.out.println("November");
-        }
-        else{
-            System.out.println("December");
-        }
+            break;
 
+            case 10:
+            System.out.println("October");
+            break;
+        
+            case 11:
+            System.out.println("November");
+            break;
+
+            case 12:
+            System.out.println("December");
+            break;
+        }
     }
 }
+
