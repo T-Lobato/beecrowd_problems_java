@@ -9,7 +9,7 @@ public class Ex1052 {//Alterar o nome da classe para Main para funcionar no beec
         int numMes = sc.nextInt();
         sc.close();
 
-        //Processamento
+        //Processamento e Saida
         if(numMes == 1){
             System.out.println("January");
         }
