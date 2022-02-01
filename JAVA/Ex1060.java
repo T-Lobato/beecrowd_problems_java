@@ -9,6 +9,7 @@ public class Ex1060 {// alterar o nome da classe para Main para funcionar no Bee
         double numero;
         int contador = 0;
 
+        //Processamento e Saida
         for(int i = 0; i < 6; i++){
             numero = sc.nextDouble();
 
@@ -20,4 +21,5 @@ public class Ex1060 {// alterar o nome da classe para Main para funcionar no Bee
         System.out.println(contador + " valores positivos");
     }
 }
+
 
