@@ -25,7 +25,7 @@ public class Ex1061 {// Alterar o nome da classe para Main para funcionar no Bee
         int segFim = Integer.parseInt(linhaHorario[2]);
         bf.close();
 
-        // processamento
+        // Processamento
         int momentoInicio = (diaInicio * 86400) + (hrInicio * 3600) + (minInicio * 60) + segInicio; 
         int momentoFim = (diaFim * 86400) + (hrFim * 3600) + (minFim * 60) + segFim; 
 
@@ -41,7 +41,7 @@ public class Ex1061 {// Alterar o nome da classe para Main para funcionar no Bee
 
         int segundos = aux; //segundos
 
-        //saida
+        // Saida
         System.out.printf("%d dia(s)\n", dias);
         System.out.printf("%d hora(s)\n", horas);
         System.out.printf("%d minuto(s)\n", minutos);
