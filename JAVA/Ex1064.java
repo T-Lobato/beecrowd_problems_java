@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Ex1064 {// alterar o nome da classe para Main para funcionar no Beecrowd
+public class Ex1064 {// Alterar o nome da classe para Main para funcionar no Beecrowd 
     public static void main(String[] args) {
-        //Objeto
+        // Objeto
         Scanner sc = new Scanner(System.in);
         
         //Variaveis e Entrada
@@ -10,7 +10,7 @@ public class Ex1064 {// alterar o nome da classe para Main para funcionar no Bee
         float numero;
         int contador = 0;
         
-        //Processamento 
+        // Processamento 
         for(int i = 0; i < 6; i++){
             numero = sc.nextFloat();
 
@@ -20,7 +20,7 @@ public class Ex1064 {// alterar o nome da classe para Main para funcionar no Bee
             }
          }
          sc.close();
-         //Saida
+         // Saida
          System.out.println(contador + " valores positivos");
          System.out.printf("%.1f\n", acumulador / contador);
         }
