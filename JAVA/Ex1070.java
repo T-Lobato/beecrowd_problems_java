@@ -12,13 +12,10 @@ public class Ex1070 { //Alterar o nome da classe para Main para funcionar no bee
         //Processamento e saida
         for(int i = 0; i < 12; i++){
 
-            if(valorEntrada % 2 == 0){
-                valorEntrada++;
-            }
-            else {
+            if(valorEntrada % 2 != 0){
                 System.out.println(valorEntrada);
-                valorEntrada++;
             }
+            valorEntrada++;             
         }
     }
-}
+}                   
