@@ -6,20 +6,20 @@ public class Ex1117 { // Alterar o nome da classe para Main para funcionar no be
         Scanner sc = new Scanner(System.in);
 
         //Variáveis 
-        float cont = 0f;
-        int aux = 0;
+        float media = 0f;
+        int cont = 0;
 
         // Processamento & Saída
-        while(aux < 2) {
+        while(cont < 2) {
             float nota = sc.nextFloat();
 
             if(nota >= 0.0 && nota <= 10.0) {
-                cont += nota;
-                aux++;
+                media += nota;
+                cont++;
             }
             else System.out.printf("nota invalida\n");
         }
-        System.out.printf("media = %.2f\n", cont / 2);
+        System.out.printf("media = %.2f\n", media / 2);
         sc.close();
     }
 }
