@@ -22,6 +22,7 @@ public class Ex1151 { // Alterar o nome da classe para Main para funcionar no be
            System.out.printf("%d", vetor[i]);
            if(i < entrada - 1) System.out.printf(" ");
        }
+       // Saída
        System.out.println();
     }
 }
