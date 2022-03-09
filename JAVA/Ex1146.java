@@ -11,7 +11,7 @@ public class Ex1146 { // Alterar o nome da classe para Main para funcionar no be
             if(entrada == 0) break;
             String valores = "1";
             for(int i = 2; i <= entrada; i++){
-                valores = valores + (" " + i);
+                valores += " " + i;
             }
             System.out.printf("%s\n", valores);
         }
