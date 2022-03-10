@@ -6,7 +6,7 @@ public class Ex1097{
         while(i < 10){
             System.out.printf("I=%d J=%d\n", i, j);
 
-            j -= 1;
+            j--;
             cont++;
             if(cont == 3){
                 i += 2;
