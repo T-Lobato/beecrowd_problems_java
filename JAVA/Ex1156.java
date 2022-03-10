@@ -6,7 +6,7 @@ public class Ex1156 { // Alterar o nome da classe para Main para funcionar no be
 
       // Processamento
       double s = 2.5;
-      for(int i = 0; i < 98; i++) { 
+      for(int i = 0; i < 12; i++) { 
           s += aux1/aux2;
   
       aux1 += 2;
