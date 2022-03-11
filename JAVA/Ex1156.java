@@ -1,18 +1,13 @@
 public class Ex1156 { // Alterar o nome da classe para Main para funcionar no beecrowd
     public static void main(String[] args) {
-      // Variáveis & Entrada
-      double aux1 = 5;
-      double aux2 = 4;
-
+ 
       // Processamento
-      double s = 2.5;
-      for(int i = 0; i < 12; i++) { 
-          s += aux1/aux2;
-  
-      aux1 += 2;
-      aux2 *= 2; 
-
+      double s = 0;
+      for(int i = 1, j = 1; i < 40; i +=2, j *= 2) { 
+        
+          s += (double) i/j;
       }
+      
       // Saída
       System.out.printf("%.2f\n", s);
     }
