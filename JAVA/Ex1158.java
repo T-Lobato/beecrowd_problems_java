@@ -8,7 +8,6 @@ public class Ex1158 { // Alterar o nome da classe para Main para funcionar no be
         // Variáveis & entrada
         int n = sc.nextInt();
         int acum = 0;
-        int cont = 0;
 
         // Processamento & Saída
         for (int i = 0; i < n; i++) {
@@ -17,13 +16,10 @@ public class Ex1158 { // Alterar o nome da classe para Main para funcionar no be
 
             if(x % 2 == 0) x++;
 
-            for (int j = x; cont < y; j += 2) {
-                acum += j;
-                cont++;
-            }
+            for (int j = x, cont = 0; cont < y; cont++, j += 2) acum += j;
+            
             System.out.printf("%d\n", acum);
             acum = 0;
-            cont = 0;
         }
         sc.close();
     }
