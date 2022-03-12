@@ -15,21 +15,15 @@ public class Ex1158 { // Alterar o nome da classe para Main para funcionar no be
             int x = sc.nextInt();
             int y = sc.nextInt();
 
-            while (true) {
+            if(x % 2 == 0) x++;
 
-                while (cont < y * 2) {
-                    if (Math.abs(x % 2) != 0) {
-                        acum += x;
-                    }
-                    x++;
-                    cont++;
-                }
-                System.out.printf("%d\n", acum);
-                cont = 0;
-                acum = 0;
-                break;
-
+            for (int j = x; cont < y; j += 2) {
+                acum += j;
+                cont++;
             }
+            System.out.printf("%d\n", acum);
+            acum = 0;
+            cont = 0;
         }
         sc.close();
     }
