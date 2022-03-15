@@ -12,7 +12,6 @@ public class Ex1176 { // Alterar o nome da classe para Main para funcionar no be
     
         // Processamento
         for(int i = 0; i < numTestes; i++) criaFibonacci(Integer.parseInt(br.readLine()));
-        
     }
 
     // Método que cria um vetor com os números 
