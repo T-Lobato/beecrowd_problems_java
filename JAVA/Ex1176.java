@@ -16,7 +16,7 @@ public class Ex1176 { // Alterar o nome da classe para Main para funcionar no be
     }
 
     // Método que cria um vetor com os números 
-    // da Sequência de Fibonacci com 60 posições.
+    // da Sequência de Fibonacci com 61 posições.
     public static void criaFibonacci(int index) {
 
         long[] vetor = new long[61];
