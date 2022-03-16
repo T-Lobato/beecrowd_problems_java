@@ -23,7 +23,7 @@ public class Ex1176 { // Alterar o nome da classe para Main para funcionar no be
         vetor[0] = 0;
         vetor[1] = 1;
         vetor[2] = 1;
-        for(int i = 3; i < 61; i++) vetor[i] = vetor[i-1] + vetor[i-2];
+        for(int i = 3; i <= index; i++) vetor[i] = vetor[i-1] + vetor[i-2];
 
         System.out.printf("Fib(%d) = %d\n", index, vetor[index]);
     }
