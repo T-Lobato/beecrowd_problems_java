@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class Ex1180 { // Alterar o nome da classe para Main para funcionar no beecrowd
@@ -6,24 +9,16 @@ public class Ex1180 { // Alterar o nome da classe para Main para funcionar no be
         Scanner sc = new Scanner(System.in);
 
         // Variáveis & Entrada
-        int[] vetor = new int[sc.nextInt()];
-        int minValue = 0;
-        int position = 0;
+        List<Integer> lista = new ArrayList<>();
+        int x = sc.nextInt();
 
         // Processamento
-        vetor[0] = sc.nextInt();
-        minValue = vetor[0];
-        for(int i = 1; i < vetor.length; i++) {
-            vetor[i] = sc.nextInt();
-
-            if(vetor[i] < minValue) {
-            minValue = vetor[i];
-            position = i;
-            }  
+        for(int i = 0; i < x; i++) {
+            lista.add(sc.nextInt());
         }
         sc.close();
-        // Saida
-        System.out.printf("Menor valor: %d\n", minValue);
-        System.out.printf("Posicao: %d\n", position);
+        // Saída
+        System.out.printf("Menor valor: %d\n", Collections.min(lista) );
+        System.out.printf("Posicao: %d\n", lista.indexOf(Collections.min(lista)));
     }
 } 
