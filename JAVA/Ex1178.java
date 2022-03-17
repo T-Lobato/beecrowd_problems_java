@@ -6,7 +6,7 @@ public class Ex1178 { // Alterar o nome da classe para Main para funcionar no be
         Scanner sc = new Scanner(System.in);
         double[] vetor = new double[101];
 
-        // Variáveis & Entrada
+        // Variaveis & Entrada
         vetor[0] = sc.nextDouble();
         sc.close();
 
