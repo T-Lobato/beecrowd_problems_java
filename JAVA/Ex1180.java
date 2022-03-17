@@ -19,9 +19,10 @@ public class Ex1180 { // Alterar o nome da classe para Main para funcionar no be
             if(vetor[i] < minValue) {
             minValue = vetor[i];
             position = i;
-            }
-            
+            }  
         }
+        sc.close();
+        // Saida
         System.out.printf("Menor valor: %d\n", minValue);
         System.out.printf("Posicao: %d\n", position);
     }
