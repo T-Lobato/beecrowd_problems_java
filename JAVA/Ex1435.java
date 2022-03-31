@@ -29,7 +29,7 @@ public class Ex1435 {
             }
             printMat(mat, temp);
         }
-
+        sc.close();
     }
 
     public static void preencheMat(int[][] mat, int inicio, int fim, int valor){
