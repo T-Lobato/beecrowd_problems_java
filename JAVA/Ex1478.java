@@ -11,8 +11,7 @@ public class Ex1478 { // ALterar o nome da classe para Main para funcionar no be
         // Processamento / Entrada / Saída
         while (true) {
             int n = sc.nextInt();
-            if (n == 0)
-                break;
+            if (n == 0) break;
 
             int[][] mat = new int[n][n];
 
