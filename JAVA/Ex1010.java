@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
         //entrada
         linha = sc.nextLine();
-        String[] valores = linha.split("\\s");
+        String[] valores = linha.split(" ");
         quant1 = Integer.parseInt(valores[1]);
         valor1 = Double.parseDouble(valores[2]);
 
