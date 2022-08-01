@@ -6,7 +6,7 @@ Repositório criado para disponibilizar as minhas resoluções dos exercícios d
   
 Neste repositório há soluções apenas em **Java**<img alt="Thyago-JAVA" height="22" width="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 
-## Exercícios resolvidos em outras linguagens <img align="center" alt="Thyago-Java" height="25" width="35" src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-2.png"><img alt="Thyago-Python" height="22" width="32" src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png">
+## Exercícios resolvidos em outras linguagens <img align="center" alt="Thyago-Java" height="25" width="35" src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-2.png"><img alt="Thyago-Python" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 
 
 - [SQL](https://github.com/T-Lobato/beecrowd_problems_SQL)
