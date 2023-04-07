@@ -50,11 +50,7 @@ public class Ex3358 { // Alterar o nome da classe para Main para funcionar no be
 
         sobrenome = sobrenome.substring(0, 1).toUpperCase().concat(sobrenome.substring(1));
 
-        if (aux) {
-            saida = sobrenome + " nao eh facil";
-        } else {
-            saida = sobrenome + " eh facil";
-        }
+        saida = aux ? sobrenome + " nao eh facil" : sobrenome + " eh facil";
 
         return saida;
     }
